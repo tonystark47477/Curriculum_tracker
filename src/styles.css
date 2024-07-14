@@ -1,0 +1,10 @@
+body {
+  background-image: url('https://getwallpapers.com/wallpaper/full/a/9/2/29702.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw;
+  margin: 0; 
+  padding: 0;
+}

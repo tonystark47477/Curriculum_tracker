@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty Home</title>
+  <link rel="stylesheet" href="fachome.component.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/ICT_Academy_Kerala.webp" alt="ICTAK Logo"></a>
+    </div>
+  </header>
+  <main>
+    <section class="faculty-hero">
+      <h1>Faculty Dashboard</h1>
+      <p>Welcome, faculty members!</p>
+    </section>
+    <section class="faculty-content">
+      <h2>Curriculum Tracker</h2>
+      <ul>
+        <li><a href="#">View Requirements</a></li>
+        <li><a href="#">Respond to Requirements</a></li>
+        <li><a href="#">View Past Curriculum</a></li>
+        <li><a href="#">Download Curriculum</a></li>
+      </ul>
+      <h2>Search Curriculum</h2>
+      <form>
+        <select name="area" id="area">
+          <option value="FSD">FSD</option>
+          <option value="ML-AI">ML-AI</option>
+          <option value="DSA">DSA</option>
+          <option value="RPA">RPA</option>
+          <option value="ST">ST</option>
+          <option value="CSA">CSA</option>
+        </select>
+        <input type="text" name="name" id="name" placeholder="Name of Training">
+        <select name="category" id="category">
+          <option value="Retail">Retail</option>
+          <option value="Academic">Academic</option>
+          <option value="Corporate">Corporate</option>
+          <option value="Govt">Govt</option>
+        </select>
+        <input type="text" name="institution" id="institution" placeholder="Institution">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

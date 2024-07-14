@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Home</title>
+  <link rel="stylesheet" href="admhome.component.css">
+</head>
+<body>
+  <main>
+    <section class="admin-hero">
+      <h1>Admin Dashboard</h1>
+      <p>Welcome, admin!</p>
+    </section>
+    <section class="admin-content">
+      <h2>Curriculum Tracker</h2>
+      <ul>
+        <li><a href="#">Add Requirement</a></li>
+        <li><a href="#">View Requirements</a></li>
+        <li><a href="#">Approve Curriculum</a></li>
+        <li><a href="#">Search Curriculum</a></li>
+      </ul>
+      <h2>Add Requirement</h2>
+      <form>
+        <input type="text" name="name" id="name" placeholder="Name of Requirement">
+        <select name="area" id="area">
+          <option value="FSD">FSD</option>
+          <option value="ML-AI">ML-AI</option>
+          <option value="DSA">DSA</option>
+          <option value="RPA">RPA</option>
+          <option value="ST">ST</option>
+          <option value="CSA">CSA</option>
+        </select>
+        <input type="text" name="institution" id="institution" placeholder="Institution/Corporate office">
+        <select name="category" id="category">
+          <option value="Retail">Retail</option>
+          <option value="Academic">Academic</option>
+          <option value="Corporate">Corporate</option>
+          <option value="Govt">Govt</option>
+        </select>
+        <input type="number" name="hours" id="hours" placeholder="No: of hours of training">
+        <input type="file" name="file" id="file">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

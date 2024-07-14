@@ -1,0 +1,199 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.whole {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    margin-left: 500px;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes glowEffect {
+    0% {
+        box-shadow: 0 0 10px rgba(0, 180, 216, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 180, 216, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(0, 180, 216, 0.8);
+    }
+}
+
+.whole {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    animation: fadeIn 1s ease, glowEffect 3s infinite alternate; 
+}
+
+.whole h1 {
+    margin-bottom: 20px;
+    color: #00b4d8;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.whole label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #00b4d8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0097b5;
+}
+
+
+.whole label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 18px;
+    animation: slideInLeft 1s ease;
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    animation: slideInRight 1s ease;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #00b4d8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    animation: slideInUp 1s ease;
+}
+
+.login-btn:hover {
+    background-color: #0097b5;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

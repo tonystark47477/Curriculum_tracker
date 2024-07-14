@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.admin-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #333, #666);
+  color: #fff;
+}
+
+.admin-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.admin-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.admin-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.admin-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-content li {
+  margin-bottom: 10px;
+}
+
+.admin-content a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.admin-content a:hover {
+  color: #23527c;
+}

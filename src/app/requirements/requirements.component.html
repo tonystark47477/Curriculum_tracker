@@ -1,0 +1,33 @@
+<form (submit)="submitForm()">
+    <div class="full">
+      <h1>Add Requirements</h1><br>
+      <label for="requirementName">Name of the Requirement</label><br>
+      <input type="text" id="requirementName" placeholder="Enter the name of requirement"><br><br>
+      <label for="trainingField">Select the field for training</label><br>
+      <select id="trainingField">
+        <option value="FSD">FSD</option>
+        <option value="ML-AI">ML-AI</option>
+        <option value="DSA">DSA</option>
+        <option value="RPA">RPA</option>
+        <option value="ST">ST</option>
+        <option value="CSA">CSA</option>
+      </select><br><br>
+      <label for="institution">Institution/Corporate Office</label><br>
+      <input type="text" id="institution" placeholder="Enter the Institution/Corporate Office"><br><br>
+      <label for="category">Category of Requirements</label><br>
+      <select id="category">
+        <option value="Retail">Retail</option>
+        <option value="Academic">Academic</option>
+        <option value="Corporate">Corporate</option>
+        <option value="Government">Government</option>
+      </select><br><br>
+      <label>Select the training duration</label><br>
+      <input type="radio" id="2hrs" name="trainingDuration"> <label for="2hrs">2hrs</label>
+      <input type="radio" id="3hrs" name="trainingDuration"> <label for="3hrs">3hrs</label>
+      <input type="radio" id="4hrs" name="trainingDuration"> <label for="4hrs">4hrs</label><br><br>
+      <button type="submit" class="add">Submit</button>
+    </div>
+  </form>
+  
+  
+  
